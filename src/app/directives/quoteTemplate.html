@@ -1,0 +1,7 @@
+<button class="btn btn-primary btn-lg" ng-click="newQuote()">New quote!</button>
+<blockquote class="mainquote blockquote-reverse">
+	<p>{{quote}}</p>
+	<footer>
+		<cite><a target="_blank" ng-show="linkTitle" ng-href="https://en.wikipedia.org/wiki/{{linkTitle}}"><i class="fa fa-wikipedia-w"></i> </a>{{author}}</cite>
+	</footer>	
+</blockquote>

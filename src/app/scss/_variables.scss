@@ -1,0 +1,25 @@
+/* Color declarations
+================================ */
+$offwhite				:	#FEFFFC;
+$offblue				:	#F5FFF7;
+$lightgrey				:	#eee;
+$darkgrey				:	#555;
+/* Color assignments
+================================ */
+
+$mainBG					:	$offblue;
+$quoteBG				:	$offwhite;
+$boxShadow				:	$lightgrey;
+$titleColor				:	$darkgrey;
+$subtitleColor			:	$darkgrey;
+
+@mixin fontStack($font, $size: '', $weight: 300, $style: normal){
+	font: $style $weight $size $font, serif;
+}
+
+$titleFont				:	'Jasofin Slab';
+$titleWeight			:	600;
+
+$subtitleFont			:	'Jasofin Slab';
+
+$quoteFont				:	'Merriweather';

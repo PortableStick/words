@@ -1,0 +1,38 @@
+body{
+	background-color: $mainBG;
+
+	.headline{
+		text-align: center;
+		padding-bottom: 4%;
+
+		.title{
+			@include fontStack($titleFont, 4em, $titleWeight, italic);
+			color: $titleColor;
+		}	
+		.subtitle{
+			@include fontStack($subtitleFont, 2.2em);
+			color: $subtitleColor;
+		}
+	}
+
+	.container{
+		text-align: center;
+
+		button{
+			margin-bottom: 4%;
+			font-size: 1.8em;
+		}
+	}
+	
+	blockquote{
+		@include fontStack($quoteFont, 1.9em);
+		background-color: $quoteBG;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		box-shadow: -10px 10px 5px $boxShadow;
+	}	
+	
+}
+
+
+
